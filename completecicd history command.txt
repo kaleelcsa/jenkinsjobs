@@ -1,0 +1,166 @@
+﻿    5  yum update
+    6  yum install curl wget -y
+    7  curl -fsSL get.docker.com -o get-docker.sh
+    8  vi get-docker.sh
+    9  clear
+   10  ls -la
+   11  sh get-docker.sh
+   12  sh get-docker.sh
+   13  docker
+   14  docker version
+   15  docker --version
+   16  yum install -y yum-utils device-mapper-persistent-data lvm2
+   17  yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+   18  yum install docker-ce
+   19  yum install docker-ce  --skip-broken
+   20  yum install docker-ce-18.03.1.ce-1.el7.centos.x86_64 libtool-ltdl-2.4.2-22.el7_3.x86_64
+   21  yum install -y yum-utils
+   22  wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   23  rpm -ivh epel-release-latest-7.noarch.rpm
+   24  # yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+   25  yum install -y http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.33-1.git86f33cd.el7.noarch.rpm
+   26  yum install –y http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.42-1.gitad8f0f7.el7.noarch.rpm
+   27  yum install -y docker-ce
+   28  docker --version
+   29  systemctl restart docker
+   30  systemctl enable docker
+   31  docker run --name webserver -d -p 9090:80 nginx
+ docker instasllation is checked and verified 
+ now sonar qube command 
+  33  docker
+   34  docker-machine --version
+   35  docker-compose --version
+   36  yum install docker-compose
+   37  docker pull cptactionhank/atlassian-jira-software
+   38  docker ps -a
+   39  docker images
+   40  docker run --detach --publish 8080:8080 cptactionhank/atlassian-jira-software:latest
+   41  docker pull sonarqube
+   42  sudo docker ps
+   43  sudo docker images
+   44  docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
+   45  history
+   
+    47  docker ps -a
+   48  docker start 22f18d767855 0825e22b9ae2
+   49  docker ps -a
+   50  docker pull sonatype/nexus
+   51   docker run -d -p 8081:8081 --name nexus sonatype/nexus:oss
+   52  l
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd opt
+   57  ls
+   58  wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz
+   59  ls
+   60  cd opt
+   61  cd ..
+   62  cd opt
+   63  l
+   64  wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u171-b11/512cd62ec5174c3487ac17c61aaa89e8/jdk-8u171-linux-x64.tar.gz"
+   65  tar xzf jdk-8u171-linux-x64.tar.gz
+   66  ls -la
+   67  chmod 777 -R jdk1.8.0_171/
+   68  ls
+   69  ls -la
+   70  cd /opt/jdk1.8.0_171/
+   71  alternatives --install /usr/bin/java java /opt/jdk1.8.0_171/bin/java 2
+   72  alternatives --config java
+   73  alternatives --install /usr/bin/jar jar /opt/jdk1.8.0_171/bin/jar 2
+   74  alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_171/bin/javac 2
+   75  alternatives --set jar /opt/jdk1.8.0_171/bin/jar
+   76  alternatives --set javac /opt/jdk1.8.0_171/bin/javac
+   77  java -version
+   78  export JAVA_HOME=/opt/jdk1.8.0_171
+   79  export JRE_HOME=/opt/jdk1.8.0_171/jre
+   80  export PATH=$PATH:/opt/jdk1.8.0_171/bin:/opt/jdk1.8.0_171/jre/bin
+   81  echo $JAVA_HOME
+   82  which java
+   83  cd ~
+   84  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+   85  sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+   86  yum install jenkins
+   87  vi /etc/sysconfig/jenkins
+   88  clear
+   89  service jenkins restart
+   90  cat /var/lib/jenkins/secrets/initialAdminPassword
+   91  cd /usr/local
+   92  wget http://www-eu.apache.org/dist/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.tar.gz
+   93  chmod 777 apache-maven-3.5.3-bin.tar.gz
+   94  ls
+   95  sudo tar xzf apache-maven-3.5.3-bin.tar.gz
+   96  ls
+   97  chmod 777 -R apache-maven-3.5.3
+   98  ls
+   99  ls -la
+  100  sudo ln -s apache-maven-3.5.3  maven
+  101  ls
+  102  cd maven
+  103  ls
+  104  cd ..
+  105  sudo vi /etc/profile.d/maven.sh
+  106  clear
+  107  source /etc/profile.d/maven.sh
+  108  mvn -version
+  109  history
+
+javascript: void(0)
+
+javascript: void(0)
+
+javascript: void(0)
+d0bfd6e1cf8a
+
+c7bff70c5eff43cf9e61992552e2d8d7
+
+installation of jenkins on redhat 7.5
+https://www.linuxtechi.com/install-configure-jenkins-on-centos-7-rhel-7/
+
+
+  1  yum update
+    2  yum install wget
+    3  wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins.io/redhat-stable/jenkins.repo
+    4  rpm --import http://pkg.jenkins.io/redhat-stable/jenkins.io.key
+    5  yum install jenkins java-1.8.0-openjdk –y
+    6  systemctl start jenkins
+    7  systemctl enable jenkins
+    8  cat /var/lib/jenkins/secrets/initialAdminPassword
+  9  history
+
+isntallation of maven on redhat 7.5 step by step 
+java-1.8.0-openjdk
+java -version
+wget https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz -P /tmp
+copy from tmp folder to opt folder 
+sudo tar xf /tmp/apache-maven-3.6.0.tar.gz -C /opt
+sudo ln -s /opt/apache-maven-3.6.0 /opt/maven
+Setup environment variables
+sudo nano /etc/profile.d/maven.sh
+
+export JAVA_HOME=/usr/lib/jvm/jre-openjdk
+export M2_HOME=/opt/maven
+export MAVEN_HOME=/opt/maven
+export PATH=${M2_HOME}/bin:${PATH}
+sudo chmod +x /etc/profile.d/maven.sh
+source /etc/profile.d/maven.sh
+mvn -version
+sudo cp jdk-8u211-linux-x64.tar.gz . /opt
+   42  ls
+   43  cd ..
+   44  ls
+   45  cd ..
+   46  ls
+   47  cd opt
+   48  ls
+   49  sudo tar -xvzf jdk-8u211-linux-x64.tar.gz
+   50  ls
+   51  ln -s jdk1.8.0_211/ jdk18
+   52  sudo ln -s jdk1.8.0_211/ jdk18
+   53  ls -la
+   54  cd jdk18
+   55  ls -la
+   56  sudo service jenkins stop
+   57  sudo service jenkins start
+   58  history
+[ec2-user@ip-172-31-11-189 jdk18]$
