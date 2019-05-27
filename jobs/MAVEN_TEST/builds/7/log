@@ -1,0 +1,71 @@
+Started by upstream project "[8mha:////4DW1mHJv2hI4Fzib3kEukMJ5MNDYIQ5qGz2Uu+bMVSFCAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH1fxzBXv3inUE8fF30AAMj+gcYAAAA=[0mMAVEN_BUILD" build number [8mha:////4NJN2du7+1NUGYBk7eCmZrkdipPq8hQVVELJPEQLOnRyAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6vo5hrn7xTqGePi76ZgD17XwpxwAAAA==[0m6
+originally caused by:
+ Started by upstream project "[8mha:////4P4gI+Qw6l26dbwJwpDCgltkzXf34yVlL5HfjS4ULl46AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH2g+sSiktTiEn0AsoM4/cQAAAA=[0msonartest" build number [8mha:////4MkAMuObgWYc0vhy8QHa97yAP8jmVxylyElMRdjNNAwIAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwkfaD6xKKS1OISfTMALewidMUAAAA=[0m6
+ originally caused by:
+  Started by user unknown or anonymous
+Building in workspace /var/lib/jenkins/workspace/MAVEN_TEST
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kaleelcsa/helloworld-java-maven.git # timeout=10
+Fetching upstream changes from https://github.com/kaleelcsa/helloworld-java-maven.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/kaleelcsa/helloworld-java-maven.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 135e397acd375c47a8757304a971380400e1c0a9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 135e397acd375c47a8757304a971380400e1c0a9
+Commit message: "Update pom.xml"
+ > git rev-list --no-walk 135e397acd375c47a8757304a971380400e1c0a9 # timeout=10
+[MAVEN_TEST] $ /opt/maven/bin/mvn test
+[INFO] Scanning for projects...
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for test:my-maven:jar:2.0.0
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 26, column 11
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] 
+[INFO] ---------------------------< test:my-maven >----------------------------
+[INFO] Building my-maven 2.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ my-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/MAVEN_TEST/src/main/resources
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ my-maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ my-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/MAVEN_TEST/src/test/resources
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ my-maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ my-maven ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/MAVEN_TEST/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.scmgalaxy.mavensample.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.296 s
+[INFO] Finished at: 2019-05-27T04:10:16Z
+[INFO] ------------------------------------------------------------------------
+Recording test results
+Triggering a new build of [8mha:////4OA8eLnhREH3ZvcNAyaCpFEIWKBFhbWW6Xmg2NIPXlU7AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH1fxzBXv/gAR2dvR3dXfQA7QBMayAAAAA==[0mMAVEN_PACKAGE
+Finished: SUCCESS

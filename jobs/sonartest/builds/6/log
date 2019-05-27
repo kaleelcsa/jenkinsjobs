@@ -1,0 +1,105 @@
+Started by user unknown or anonymous
+Building in workspace /var/lib/jenkins/workspace/sonartest
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kaleelcsa/java-sonar-runner-simple.git # timeout=10
+Fetching upstream changes from https://github.com/kaleelcsa/java-sonar-runner-simple.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/kaleelcsa/java-sonar-runner-simple.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 167ef28c27fd6fac9fdbf76e188ff5f999aed8b4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 167ef28c27fd6fac9fdbf76e188ff5f999aed8b4
+Commit message: "Update validation.txt"
+ > git rev-list --no-walk 167ef28c27fd6fac9fdbf76e188ff5f999aed8b4 # timeout=10
+[sonartest] $ /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/bin/sonar-scanner -Dsonar.host.url=http://35.183.179.67:9000 ******** -Dsonar.projectBaseDir=/var/lib/jenkins/workspace/sonartest
+INFO: Scanner configuration file: /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /var/lib/jenkins/workspace/sonartest/sonar-project.properties
+INFO: SonarQube Scanner 3.0.0.702
+INFO: Java 1.8.0_211 Oracle Corporation (64-bit)
+INFO: Linux 3.10.0-862.el7.x86_64 amd64
+INFO: User cache: /home/jenkins/.sonar/cache
+INFO: SonarQube server 7.7.0
+INFO: Default locale: "en_US", source code encoding: "UTF-8"
+INFO: Load global settings
+INFO: Load global settings (done) | time=76ms
+INFO: Server id: BF41A1F2-AWroAgixtMEQqZ9padYN
+INFO: User cache: /home/jenkins/.sonar/cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=40ms
+INFO: Load/download plugins (done) | time=64ms
+INFO: Process project properties
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=3ms
+INFO: Project key: org.sonarqube:scmgalaxy1
+INFO: Base dir: /var/lib/jenkins/workspace/sonartest
+INFO: Working dir: /var/lib/jenkins/workspace/sonartest/.scannerwork
+INFO: Load project settings for component key: 'org.sonarqube:scmgalaxy1'
+INFO: Load project settings for component key: 'org.sonarqube:scmgalaxy1' (done) | time=25ms
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=53ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=47ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=2481ms
+INFO: Indexing files...
+INFO: Project configuration:
+INFO: 2 files indexed
+INFO: 0 files ignored because of scm ignore settings
+INFO: Quality profile for java: Sonar way
+INFO: ------------- Run sensors on module NokiaX
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=65ms
+INFO: Sensor JavaSquidSensor [java]
+INFO: Configured Java source version (sonar.java.source): none
+INFO: JavaClasspath initialization
+WARN: Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property.
+INFO: JavaClasspath initialization (done) | time=13ms
+INFO: JavaTestClasspath initialization
+INFO: JavaTestClasspath initialization (done) | time=0ms
+INFO: Java Main Files AST scan
+INFO: 2 source files to be analyzed
+INFO: Java Main Files AST scan (done) | time=516ms
+INFO: Java Test Files AST scan
+INFO: 0 source files to be analyzed
+INFO: Java Test Files AST scan (done) | time=1ms
+INFO: Sensor JavaSquidSensor [java] (done) | time=1313ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco]
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=2ms
+INFO: Sensor SurefireSensor [java]
+INFO: parsing [/var/lib/jenkins/workspace/sonartest/target/surefire-reports]
+INFO: 2/2 source files have been analyzed
+INFO: Sensor SurefireSensor [java] (done) | time=2ms
+INFO: Sensor JaCoCoSensor [java]
+INFO: Sensor JaCoCoSensor [java] (done) | time=1ms
+INFO: Sensor JavaXmlSensor [java]
+INFO: Sensor JavaXmlSensor [java] (done) | time=1ms
+INFO: Sensor HTML [web]
+INFO: 0/0 source files have been analyzed
+INFO: Sensor HTML [web] (done) | time=17ms
+INFO: ------------- Run sensors on project
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=16ms
+INFO: Sensor Java CPD Block Indexer
+INFO: Sensor Java CPD Block Indexer (done) | time=31ms
+INFO: 1 file had no CPD blocks
+INFO: Calculating CPD for 1 file
+INFO: CPD calculation finished
+INFO: Analysis report generated in 84ms, dir size=75 KB
+INFO: Analysis report compressed in 12ms, zip size=13 KB
+INFO: Analysis report uploaded in 18ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://35.183.179.67:9000/dashboard?id=org.sonarqube%3Ascmgalaxy1
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://35.183.179.67:9000/api/ce/task?id=AWr3ewZ3tMEQqZ9pafhb
+INFO: Analysis total time: 6.786 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 7.704s
+INFO: Final Memory: 20M/243M
+INFO: ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4DW1mHJv2hI4Fzib3kEukMJ5MNDYIQ5qGz2Uu+bMVSFCAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH1fxzBXv3inUE8fF30AAMj+gcYAAAA=[0mMAVEN_BUILD
+Finished: SUCCESS

@@ -1,0 +1,53 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>MAVEN_PACKAGE</upstreamProject>
+            <upstreamUrl>job/MAVEN_PACKAGE/</upstreamUrl>
+            <upstreamBuild>6</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>MAVEN_TEST</upstreamProject>
+                <upstreamUrl>job/MAVEN_TEST/</upstreamUrl>
+                <upstreamBuild>6</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>MAVEN_BUILD</upstreamProject>
+                    <upstreamUrl>job/MAVEN_BUILD/</upstreamUrl>
+                    <upstreamBuild>5</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.model.Cause_-UpstreamCause>
+                        <upstreamProject>sonartest</upstreamProject>
+                        <upstreamUrl>job/sonartest/</upstreamUrl>
+                        <upstreamBuild>5</upstreamBuild>
+                        <upstreamCauses>
+                          <hudson.model.Cause_-UserIdCause/>
+                        </upstreamCauses>
+                      </hudson.model.Cause_-UpstreamCause>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>45</queueId>
+  <timestamp>1558852050553</timestamp>
+  <startTime>1558852050556</startTime>
+  <result>SUCCESS</result>
+  <duration>14</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/staging_deployment</workspace>
+  <hudsonVersion>2.164.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

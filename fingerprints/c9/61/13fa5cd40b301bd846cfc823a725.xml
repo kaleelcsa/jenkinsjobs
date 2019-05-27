@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-05-25 19:02:54.320 UTC</timestamp>
+  <original>
+    <name>test/com.scmgalaxy.mavensample:my-maven</name>
+    <number>5</number>
+  </original>
+  <md5sum>c96113fa5cd40b301bd846cfc823a725</md5sum>
+  <fileName>com.scmgalaxy.mavensample:my-maven-2.0.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>test/com.scmgalaxy.mavensample:my-maven</string>
+      <ranges>5-6</ranges>
+    </entry>
+    <entry>
+      <string>test</string>
+      <ranges>5-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

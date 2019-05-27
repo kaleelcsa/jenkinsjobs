@@ -1,0 +1,116 @@
+Started by upstream project "[8mha:////4OA8eLnhREH3ZvcNAyaCpFEIWKBFhbWW6Xmg2NIPXlU7AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH1fxzBXv/gAR2dvR3dXfQA7QBMayAAAAA==[0mMAVEN_PACKAGE" build number [8mha:////4KR2GI0rimPhC8jpqHf90bGC0toI/CnDyR1nKyNxmibcAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwkfV/HMFe/+ABHZ29Hd1d9YwBGUC8OyQAAAA==[0m3
+originally caused by:
+ Started by upstream project "[8mha:////4CPwtdqma5Qn0bs0Xkj8xN/n/xy2F11vVysffuJLOn8tAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH1fxzBXv/gQ1+AQfQBKfgZbxQAAAA==[0mMAVEN_TEST" build number [8mha:////4PBSe4F8xGeGrRhgpp68ms4KC4M4EFNt9nkOmXr43mO3AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkH9rPwkfV/HMFe/+BDX4BB9YwAfHT5KxgAAAA==[0m3
+ originally caused by:
+  Started by upstream project "[8mha:////4DW1mHJv2hI4Fzib3kEukMJ5MNDYIQ5qGz2Uu+bMVSFCAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH1fxzBXv3inUE8fF30AAMj+gcYAAAA=[0mMAVEN_BUILD" build number [8mha:////4M2InMa47Ynm8Y7n2RrunRiKhVTD7DtDfHGgBO5yb1bsAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6vo5hrn7xTqGePi76RgDsKREuxwAAAA==[0m2
+  originally caused by:
+   Started by upstream project "[8mha:////4P4gI+Qw6l26dbwJwpDCgltkzXf34yVlL5HfjS4ULl46AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH2g+sSiktTiEn0AsoM4/cQAAAA=[0msonartest" build number [8mha:////4EO1k7xIW1UbDyUhNJqQuKgd1pLv1n/9f+vfBao+RYqqAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwkfaD6xKKS1OISfSMANChPc8UAAAA=[0m2
+   originally caused by:
+    Started by user unknown or anonymous
+Building in workspace /var/lib/jenkins/workspace/MAVEN_DEPLOY
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kaleelcsa/helloworld-java-maven.git # timeout=10
+Fetching upstream changes from https://github.com/kaleelcsa/helloworld-java-maven.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/kaleelcsa/helloworld-java-maven.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 411654aae538befb323d88e2e494318d94ed1b36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 411654aae538befb323d88e2e494318d94ed1b36
+Commit message: "Update pom.xml"
+ > git rev-list --no-walk 411654aae538befb323d88e2e494318d94ed1b36 # timeout=10
+[MAVEN_DEPLOY] $ /opt/maven/bin/mvn deploy
+[INFO] Scanning for projects...
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.scmgalaxy.mavensample:my-maven:jar:2.0.0
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 26, column 11
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] 
+[INFO] -----------------< com.scmgalaxy.mavensample:my-maven >-----------------
+[INFO] Building my-maven 2.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ my-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/MAVEN_DEPLOY/src/main/resources
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ my-maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ my-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/MAVEN_DEPLOY/src/test/resources
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ my-maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ my-maven ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.scmgalaxy.mavensample.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ my-maven ---
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-javadoc-plugin:3.1.0:jar (attach-javadocs) @ my-maven ---
+[INFO] 
+Loading source files for package com.scmgalaxy.mavensample...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_211
+Building tree for all the packages and classes...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/com/scmgalaxy/mavensample/App.html...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/com/scmgalaxy/mavensample/package-frame.html...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/com/scmgalaxy/mavensample/package-summary.html...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/com/scmgalaxy/mavensample/package-tree.html...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/constant-values.html...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/com/scmgalaxy/mavensample/class-use/App.html...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/com/scmgalaxy/mavensample/package-use.html...
+Building index for all the packages and classes...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/overview-tree.html...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/index-all.html...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/deprecated-list.html...
+Building index for all classes...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/allclasses-frame.html...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/allclasses-noframe.html...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/index.html...
+Generating /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/apidocs/help-doc.html...
+[INFO] Building jar: /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/my-maven-2.0.0-javadoc.jar
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ my-maven ---
+[INFO] Installing /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/my-maven-2.0.0.jar to /home/jenkins/.m2/repository/com/scmgalaxy/mavensample/my-maven/2.0.0/my-maven-2.0.0.jar
+[INFO] Installing /var/lib/jenkins/workspace/MAVEN_DEPLOY/pom.xml to /home/jenkins/.m2/repository/com/scmgalaxy/mavensample/my-maven/2.0.0/my-maven-2.0.0.pom
+[INFO] Installing /var/lib/jenkins/workspace/MAVEN_DEPLOY/target/my-maven-2.0.0-javadoc.jar to /home/jenkins/.m2/repository/com/scmgalaxy/mavensample/my-maven/2.0.0/my-maven-2.0.0-javadoc.jar
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ my-maven ---
+Uploading to rajesh: http://35.183.179.67:8081/nexus/content/repositories/infy/com/scmgalaxy/mavensample/my-maven/2.0.0/my-maven-2.0.0.jar
+Uploading to rajesh: http://35.183.179.67:8081/nexus/content/repositories/infy/com/scmgalaxy/mavensample/my-maven/2.0.0/my-maven-2.0.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.575 s
+[INFO] Finished at: 2019-05-26T04:06:42Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4KCx0CzJjf8v3n9QYaF8O0EJ//C2l+LehmVrjG4BvuZiAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy (default-deploy) on project my-maven: Failed to deploy artifacts: Could not transfer artifact com.scmgalaxy.mavensample:my-maven:jar:2.0.0 from/to rajesh (http://35.183.179.67:8081/nexus/content/repositories/infy/): Failed to transfer file http://35.183.179.67:8081/nexus/content/repositories/infy/com/scmgalaxy/mavensample/my-maven/2.0.0/my-maven-2.0.0.jar with status code 401 -> [Help 1]
+[8mha:////4KCx0CzJjf8v3n9QYaF8O0EJ//C2l+LehmVrjG4BvuZiAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4KCx0CzJjf8v3n9QYaF8O0EJ//C2l+LehmVrjG4BvuZiAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4KCx0CzJjf8v3n9QYaF8O0EJ//C2l+LehmVrjG4BvuZiAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4KCx0CzJjf8v3n9QYaF8O0EJ//C2l+LehmVrjG4BvuZiAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4KCx0CzJjf8v3n9QYaF8O0EJ//C2l+LehmVrjG4BvuZiAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4KCx0CzJjf8v3n9QYaF8O0EJ//C2l+LehmVrjG4BvuZiAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

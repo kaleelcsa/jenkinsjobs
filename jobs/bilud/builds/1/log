@@ -1,0 +1,50 @@
+Started by user [8mha:////4LAu0jaGMjeLV3lfPjkJYT7zTe7DOx47k4WiF6KiXDxpAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Building in workspace /var/lib/jenkins/workspace/bilud
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kaleelcsa/helloworld-java-maven.git
+ > git init /var/lib/jenkins/workspace/bilud # timeout=10
+Fetching upstream changes from https://github.com/kaleelcsa/helloworld-java-maven.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/kaleelcsa/helloworld-java-maven.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/kaleelcsa/helloworld-java-maven.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kaleelcsa/helloworld-java-maven.git # timeout=10
+Fetching upstream changes from https://github.com/kaleelcsa/helloworld-java-maven.git
+ > git fetch --tags --progress https://github.com/kaleelcsa/helloworld-java-maven.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 57db9be947a86ed9b9e38f23e9266a38c40c906d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 57db9be947a86ed9b9e38f23e9266a38c40c906d
+Commit message: "IN-1 DEPLOYMENT"
+First time build. Skipping changelog.
+[bilud] $ /opt/maven/bin/mvn compile
+[INFO] Scanning for projects...
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.scmgalaxy.mavensample:my-maven:jar:2.0.0
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 26, column 11
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:////4KksJGjvrEs9d/YmoFee4L7jv5rTUmnJezrYM9Qgu5LaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] 
+[INFO] -----------------< com.scmgalaxy.mavensample:my-maven >-----------------
+[INFO] Building my-maven 2.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ my-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/bilud/src/main/resources
+[INFO] 
+[8mha:////4DVcQUVtWGoe3/SnrWEirn7ohWe8gciHzOZrxiP5SftMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ my-maven ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/bilud/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.210 s
+[INFO] Finished at: 2019-05-25T19:47:00Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

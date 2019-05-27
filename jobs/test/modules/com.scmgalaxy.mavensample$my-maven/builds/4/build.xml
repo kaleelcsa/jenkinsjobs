@@ -1,0 +1,58 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@3.2">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>com.scmgalaxy.mavensample:my-maven:pom.xml</string>
+          <string>21a358d2742f384c79e96a55a93fb6ef</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>com.scmgalaxy.mavensample</groupId>
+        <artifactId>my-maven</artifactId>
+        <version>2.0.0</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>my-maven-2.0.0.pom</canonicalName>
+        <md5sum>21a358d2742f384c79e96a55a93fb6ef</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+      <repositoryId>rajesh</repositoryId>
+      <repositoryUrl>http://13.232.51.65:8085/artifactory/nokia</repositoryUrl>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <queueId>-1</queueId>
+  <timestamp>1558762832976</timestamp>
+  <startTime>1558762836761</startTime>
+  <result>FAILURE</result>
+  <duration>1464</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/test</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-resources-plugin</artifactId>
+      <version>2.6</version>
+      <goal>resources</goal>
+      <executionId>default-resources</executionId>
+      <duration>275</duration>
+      <digest>e7cc4bbb6888e6c9dd5acdad08cf4bd3</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.1</version>
+      <goal>compile</goal>
+      <executionId>default-compile</executionId>
+      <duration>273</duration>
+      <digest>4a14a33ab69db9dadfb4d41449ebc651</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

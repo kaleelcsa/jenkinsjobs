@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-05-26 04:37:29.882 UTC</timestamp>
+  <original>
+    <name>jacoco_codecoverage_job/com.bogotobogo:bogotobogo_JenkinsOnEC2</name>
+    <number>1</number>
+  </original>
+  <md5sum>363c70c1ab02631d4638f668f5b98e06</md5sum>
+  <fileName>com.bogotobogo:bogotobogo_JenkinsOnEC2-212.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>jacoco_codecoverage_job/com.bogotobogo:bogotobogo_JenkinsOnEC2</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>jacoco_codecoverage_job</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
